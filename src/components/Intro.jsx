@@ -31,7 +31,7 @@ const Intro = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-7 text-6xl font-sans tracking-tight lg:mt-16 lg:text-8xl bg-gradient-to-r  from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent tracking-tight"
+              className="pb-7 text-6xl font-sans lg:mt-16 lg:text-8xl bg-gradient-to-r  from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent tracking-tight"
             >
               TANVEER AHMED 
             </motion.h1>
