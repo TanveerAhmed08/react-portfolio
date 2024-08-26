@@ -31,15 +31,15 @@ const Intro = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-7 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-7 text-6xl font-sans tracking-tight lg:mt-16 lg:text-8xl bg-gradient-to-r  from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent tracking-tight"
             >
-              Tanveer Ahmed
+              TANVEER AHMED 
             </motion.h1>
             <motion.span
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-slate-400 via-slate-300 to-slate-400 bg-clip-text text-4xl tracking-tight text-transparent"
             >
               Front-End Developer
             </motion.span>

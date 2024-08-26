@@ -6,8 +6,25 @@ import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
+import { createBrowserRouter , RouterProvider } from "react-router-dom"
+
 
 const App = () => {
+
+  const router  = createBrowserRouter([
+    {
+      path: '',
+      element: <> <Navbar /></>
+    },
+  ])
+    const router2 = createBrowserRouter([
+    {
+      path: '',
+      element: <>  <Contact /></>
+    }
+  ])
+
+
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
       <div className="fixed top-0 -z-10 h-full w-full bg-slate-200-100">
@@ -15,13 +32,14 @@ const App = () => {
       </div>
 
       <div className="container mx-auto px-8">
-        <Navbar />
+      <RouterProvider router={router}/>
         <Intro />
         <About />
         <Technologies />
         <Experience />
         <Project />
-        <Contact />
+        <RouterProvider router={router2}/>
+
       </div>
     </div>
   );
