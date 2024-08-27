@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
       <h1 className="my-20 text-center text-4xl">
-        About <span className="text-purple-700"> Me</span>
+        ABOUT  ME
       </h1>
       <div className="flex flex-wrap">
         <motion.div
@@ -32,7 +32,7 @@ const About = () => {
           className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6">
+            <p className="my-2 max-w-xl py-6 text-2xl">
               My journey began with a deep passion for design and an insatiable
               curiosity for the inner workings of the web. Over the years, I've
               become proficient in HTML, CSS, and JavaScript, and I've
