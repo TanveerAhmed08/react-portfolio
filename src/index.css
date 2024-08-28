@@ -1,21 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Matemasie&family=Nerko+One&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  font-family: "Nunito", sans-serif;}
+  font-family: "Nunito", sans-serif;
+}
 h1 {
-  font-family: "Matemasie", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.logo{
+.logo {
   /* -webkit-filter: drop-shadow(1px 1px 20px #9c9c9c); */
   filter: drop-shadow(4px 4px 40px #1a1842);
 }
